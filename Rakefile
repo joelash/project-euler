@@ -18,5 +18,5 @@ end
 
 def run_jruby(file_base)
   file = File.dirname(__FILE__) + "/jruby/lib/#{file_base}.rb"
-  `#{file}`
+  `jruby #{file}`
 end
